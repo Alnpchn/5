@@ -7,14 +7,14 @@ void main(void)
 {
 	float gr1, gr2, gr3;
 	setlocale(LC_ALL, "RUS");
-	puts("Задание 1");
-	puts("Введите градус");
+	puts("Р—Р°РґР°РЅРёРµ 1");
+	puts("Р’РІРµРґРёС‚Рµ РіСЂР°РґСѓСЃ");
 	scanf(" % f % f % f", &gr1, &gr2, &gr3);
-	printf("%.1f градусов равно %.6f\n", gr1, gr1 * M_PI / 180);
-	printf("%.1f градусов равно %.6f\n", gr2, gr2 * M_PI / 180);
-	printf("%.1f градусов равно %.6f\n", gr2, gr2 * M_PI / 180);
+	printf("%.1f РіСЂР°РґСѓСЃРѕРІ СЂР°РІРЅРѕ %.6f\n", gr1, gr1 * M_PI / 180);
+	printf("%.1f РіСЂР°РґСѓСЃРѕРІ СЂР°РІРЅРѕ %.6f\n", gr2, gr2 * M_PI / 180);
+	printf("%.1f РіСЂР°РґСѓСЃРѕРІ СЂР°РІРЅРѕ %.6f\n", gr2, gr2 * M_PI / 180);
 
-	puts("Задание 2");
+	puts("Р—Р°РґР°РЅРёРµ 2");
 	double a, b, x, y;
 	scanf("%lf", &x);
 	a = log10(fabs(t * x + pow(t, 2)));
