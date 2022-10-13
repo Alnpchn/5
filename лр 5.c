@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<locale.h>
 #include<math.h>
+#include<conio.h>
 #define M_PI 3.14159265358979323846
 #define t 0.3
 void main(void)
