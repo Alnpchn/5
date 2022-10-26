@@ -7,11 +7,11 @@ void main()
 	double x, y, a, res1, res2;
 	a = 7.1e-9;
 	setlocale(LC_ALL, "RUS");
-	puts("Введите x");
+	puts("РІРІРµРґРёС‚Рµ x");
 	scanf("%lf", &x);
-	puts("Введите y");
+	puts("РІРІРµРґРёС‚Рµ y");
 	scanf("%lf", &y);
 	res1 = cos(pow(x, 3) + 6) - sin(y - a);
 	res2 = log(pow(x, 4)) - 2*pow(sin (x), 5);
-	printf("Значение F=%lf", res1 / res2);
+	printf("Г‡Г­Г Г·ГҐГ­ГЁГҐ F=%lf", res1 / res2);
 }
