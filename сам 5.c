@@ -13,5 +13,5 @@ void main()
 	scanf("%lf", &y);
 	res1 = cos(pow(x, 3) + 6) - sin(y - a);
 	res2 = log(pow(x, 4)) - 2*pow(sin (x), 5);
-	printf("Çíà÷åíèå F=%lf", res1 / res2);
+	printf("Значение F=%lf", res1 / res2);
 }
